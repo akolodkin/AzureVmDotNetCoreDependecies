@@ -36,7 +36,8 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-ASPNET45
 choco install urlrewrite /y
 choco install dotnetcore /y
 choco install dotnetcore-sdk /y
-choco install dotnetcore-windowshosting --version 2.1.8 /y
+choco install dotnetcore-windowshosting --version 2.0.8 /y
+choco install dotnetcore-windowshosting --version 2.1.8 /y --force
 choco install dotnetcore-windowshosting /y --force
 choco install webdeploy -y
 
